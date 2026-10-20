@@ -1,111 +1,100 @@
-<mxfile host="app.diagrams.net">
-  <diagram id="Clases_Analisis" name="Clases_Limite_Control">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Swimlane: Clases Límite -->
-        <mxCell id="swim_limite" parent="1" value="Clases Límite (Boundary)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0284c7;fontStyle=1;startSize=35;fontSize=14;fontColor=#0369a1;" vertex="1">
-          <mxGeometry x="120" y="80" width="300" height="680" as="geometry" />
-        </mxCell>
-
-        <!-- Clases Límite Base -->
-        <mxCell id="bound_1" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PantallaMenuPrincipal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="60" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="bound_2" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InterfazCalcularFondo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="135" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="bound_3" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InterfazGestionHipoteca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="210" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="bound_4" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InterfazGestionInversion&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="285" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="bound_5" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InterfazImpresionReporte&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="360" width="250" height="55" as="geometry" />
-        </mxCell>
-
-        <!-- Clases Límite Nuevas (Módulo Becas - Verde) -->
-        <mxCell id="bound_6" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InterfazAporteAnual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#f0fdf4;strokeColor=#166534;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;fontColor=#166534;" vertex="1">
-          <mxGeometry x="25" y="435" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="bound_7" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InterfazGestionBeca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#f0fdf4;strokeColor=#166534;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;fontColor=#166534;" vertex="1">
-          <mxGeometry x="25" y="510" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="bound_8" parent="swim_limite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;InterfazEvaluacionSemestral&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#f0fdf4;strokeColor=#166534;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;fontColor=#166534;" vertex="1">
-          <mxGeometry x="25" y="585" width="250" height="55" as="geometry" />
-        </mxCell>
-
-        <!-- Swimlane: Clases Control -->
-        <mxCell id="swim_control" parent="1" value="Clases de Control (Control)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;fontStyle=1;startSize=35;fontSize=14;fontColor=#9a3412;" vertex="1">
-          <mxGeometry x="580" y="80" width="300" height="680" as="geometry" />
-        </mxCell>
-
-        <!-- Clases Control Base -->
-        <mxCell id="ctrl_1" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GestorLoopSistema&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="60" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="ctrl_2" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControladorCalculoFondo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="135" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="ctrl_3" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControladorGestionHipoteca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="210" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="ctrl_4" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControladorGestionInversion&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="285" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="ctrl_5" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControladorGenerarReporte&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" vertex="1">
-          <mxGeometry x="25" y="360" width="250" height="55" as="geometry" />
-        </mxCell>
-
-        <!-- Clases Control Nuevas (Módulo Becas - Verde) -->
-        <mxCell id="ctrl_6" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControladorAporteAnual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#f0fdf4;strokeColor=#166534;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;fontColor=#166534;" vertex="1">
-          <mxGeometry x="25" y="435" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="ctrl_7" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControladorGestionBeca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#f0fdf4;strokeColor=#166534;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;fontColor=#166534;" vertex="1">
-          <mxGeometry x="25" y="510" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="ctrl_8" parent="swim_control" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControladorEvaluacionSemestral&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; /&gt;" style="html=1;whiteSpace=wrap;fillColor=#f0fdf4;strokeColor=#166534;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;fontColor=#166534;" vertex="1">
-          <mxGeometry x="25" y="585" width="250" height="55" as="geometry" />
-        </mxCell>
-
-        <!-- Leyenda -->
-        <mxCell id="legend_bg" parent="1" value="Leyenda del Modelo" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#d5d5d5;fontStyle=1;startSize=25;fontSize=12;fontColor=#333333;" vertex="1">
-          <mxGeometry x="120" y="780" width="300" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_new" parent="legend_bg" value="Clases Nuevas (Requerimiento 5)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#166534;fontColor=#166534;fontStyle=1;fontSize=11;" vertex="1">
-          <mxGeometry x="10" y="35" width="280" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- Dependencias (Desde Control hacia Límite) -->
-        <mxCell id="dep_1" edge="1" parent="1" source="ctrl_1" target="bound_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_2" edge="1" parent="1" source="ctrl_2" target="bound_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_3" edge="1" parent="1" source="ctrl_3" target="bound_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_4" edge="1" parent="1" source="ctrl_4" target="bound_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_5" edge="1" parent="1" source="ctrl_5" target="bound_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_6" edge="1" parent="1" source="ctrl_6" target="bound_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#166534;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_7" edge="1" parent="1" source="ctrl_7" target="bound_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#166534;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_8" edge="1" parent="1" source="ctrl_8" target="bound_8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#166534;strokeWidth=1.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+<mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="swim_limite" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;startSize=35;fontSize=14;gradientColor=#ea6b66;" value="Clases Límite (Boundary)" vertex="1">
+      <mxGeometry height="680" width="300" x="120" y="80" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_1" parent="swim_limite" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;strokeColor=light-dark(#4448c1, #ededed);" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;PantallaMenuPrincipal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="60" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_2" parent="swim_limite" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;InterfazCalcularFondo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="135" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_3" parent="swim_limite" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;InterfazGestionHipoteca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="210" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_4" parent="swim_limite" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;InterfazGestionInversion&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="285" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_5" parent="swim_limite" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#0284c7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;InterfazImpresionReporte&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="360" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_6" parent="swim_limite" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;gradientColor=#97d077;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;InterfazAporteAnual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="435" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_7" parent="swim_limite" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;gradientColor=#97d077;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;InterfazGestionBeca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="510" as="geometry" />
+    </mxCell>
+    <mxCell id="bound_8" parent="swim_limite" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;gradientColor=#97d077;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;InterfazEvaluacionSemestral&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="585" as="geometry" />
+    </mxCell>
+    <mxCell id="swim_control" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;startSize=35;fontSize=14;gradientColor=#7ea6e0;" value="Clases de Control (Control)" vertex="1">
+      <mxGeometry height="680" width="300" x="580" y="80" as="geometry">
+        <mxRectangle height="35" width="220" x="580" y="80" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="ctrl_1" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;GestorLoopSistema&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="60" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_2" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ControladorCalculoFondo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="135" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_3" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ControladorGestionHipoteca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="210" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_4" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ControladorGestionInversion&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="285" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_5" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#ea580c;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ControladorGenerarReporte&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="360" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_6" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;gradientColor=#97d077;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ControladorAporteAnual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="435" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_7" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;gradientColor=#97d077;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ControladorGestionBeca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="510" as="geometry" />
+    </mxCell>
+    <mxCell id="ctrl_8" parent="swim_control" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;gradientColor=#97d077;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ControladorEvaluacionSemestral&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" vertex="1">
+      <mxGeometry height="55" width="250" x="25" y="585" as="geometry" />
+    </mxCell>
+    <mxCell id="legend_bg" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;startSize=25;fontSize=12;gradientColor=#ffa500;" value="Leyenda del Modelo" vertex="1">
+      <mxGeometry height="70" width="300" x="120" y="780" as="geometry">
+        <mxRectangle height="30" width="160" x="120" y="780" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="legend_new" parent="legend_bg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=11;gradientColor=#b3b3b3;" value="Clases Nuevas (Requerimiento 5)" vertex="1">
+      <mxGeometry height="25" width="280" x="10" y="35" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_1" edge="1" parent="1" source="ctrl_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;" target="bound_1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_2" edge="1" parent="1" source="ctrl_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;" target="bound_2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_3" edge="1" parent="1" source="ctrl_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;" target="bound_3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_4" edge="1" parent="1" source="ctrl_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;" target="bound_4">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_5" edge="1" parent="1" source="ctrl_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#64748b;strokeWidth=1.5;" target="bound_5">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_6" edge="1" parent="1" source="ctrl_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#166534;strokeWidth=1.5;" target="bound_6">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_7" edge="1" parent="1" source="ctrl_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#166534;strokeWidth=1.5;" target="bound_7">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="dep_8" edge="1" parent="1" source="ctrl_8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;endFill=0;strokeColor=#166534;strokeWidth=1.5;" target="bound_8">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fEuSfI8NXQT7XhoNPhzW-40" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="" vertex="1">
+      <mxGeometry height="80" width="100" x="430" y="80" as="geometry" />
+    </mxCell>
+    <mxCell id="fEuSfI8NXQT7XhoNPhzW-41" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="" vertex="1">
+      <mxGeometry height="90" width="90" x="890" y="70" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
