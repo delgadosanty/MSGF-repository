@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Clases_UML_Mejorado" name="Diagrama_Clases">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Clase Padre: Activo -->
+        <mxCell id="class_activo" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#2C3E50;fontColor=#FFFFFF;strokeColor=#233140;swimlaneFillColor=#ECF0F1;" value="Activo" vertex="1">
+          <mxGeometry height="150" width="180" x="323.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_activo" parent="class_activo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="- #ID" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="line_activo" parent="class_activo" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#BDC3C7;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meth_activo" parent="class_activo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="+ Crear()&lt;div&gt;+ Read()&lt;/div&gt;&lt;div&gt;+ Update()&lt;/div&gt;&lt;div&gt;+ Delete()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="180" y="68" as="geometry" />
+        </mxCell>
+
+        <!-- Clase Hija 1: Hipoteca -->
+        <mxCell id="class_hipoteca" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#34495E;fontColor=#FFFFFF;strokeColor=#2C3E50;swimlaneFillColor=#ECF0F1;" value="Hipoteca" vertex="1">
+          <mxGeometry height="180" width="180" x="140" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_hipo" parent="class_hipoteca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;fontFamily=Helvetica;" value="- pareja&lt;div&gt;- valor_inicial&lt;/div&gt;&lt;div&gt;- fecha_otorgada&lt;/div&gt;&lt;div&gt;- ingresos_sem&lt;/div&gt;&lt;div&gt;- impuesto&lt;/div&gt;&lt;div&gt;- seguro&lt;/div&gt;&lt;div&gt;- fecha_imp&lt;/div&gt;&lt;div&gt;- fecha_seg&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="180" y="30" as="geometry" />
+        </mxCell>
+
+        <!-- Clase Hija 2: Inversion -->
+        <mxCell id="class_inversion" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#34495E;fontColor=#FFFFFF;strokeColor=#2C3E50;swimlaneFillColor=#ECF0F1;" value="Inversión" vertex="1">
+          <mxGeometry height="120" width="180" x="507" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_inv" parent="class_inversion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;fontFamily=Helvetica;" value="- entidad&lt;div&gt;- valor&lt;/div&gt;&lt;div&gt;- plazos&lt;/div&gt;&lt;div&gt;- interes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="180" y="30" as="geometry" />
+        </mxCell>
+
+        <!-- Relación de Herencia: Hipoteca -> Activo -->
+        <mxCell id="rel_hipo_activo" edge="1" parent="1" source="class_hipoteca" target="class_activo" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#2C3E50;strokeWidth=1.5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+
+        <!-- Relación de Herencia: Inversion -> Activo -->
+        <mxCell id="rel_inv_activo" edge="1" parent="1" source="class_inversion" target="class_activo" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;strokeColor=#2C3E50;strokeWidth=1.5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
